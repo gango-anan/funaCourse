@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header-area"
+    "main-content-area"
+    "main-footer-area";
+}
+
+.main-header {
+  grid-area: header-area;
+}
+
+.main-content {
+  grid-area: main-content-area;
+}
+
+.main-footer {
+  grid-area: main-footer-area;
+}
