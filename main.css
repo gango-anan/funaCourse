@@ -31,7 +31,15 @@ body {
 
 .main-content {
   grid-area: main-content-area;
-  height: 500px;
+  height: 30rem;
+  background-image: url("images/theme-pic4.jpg");
+  /* background-image: url("images/theme-pc1.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-position: right 0 bottom 35%;
+
 }
 
 .main-footer {
@@ -66,17 +74,10 @@ body {
   background-color: #f15625;
 }
 
-@media (max-width: 1024px) {
-  html {
-    font-size: 75%;
-  }
-  .resize_btn {
-    width: 100%;
-  }
-
-  .form_d-block {
-    display: block;
-  }
+.search-area_bg {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgb(156, 155, 155);
 }
 
 @media (min-width: 768px) {
@@ -99,5 +100,18 @@ body {
   .border_on {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 75%;
+  }
+  .resize_btn {
+    width: 100%;
+  }
+
+  .form_d-block {
+    display: block;
   }
 }
