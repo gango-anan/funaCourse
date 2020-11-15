@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="search_bg">
 <!-- NAVIGATION AREA -->
     <header class="main-header bg-danger d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-between p-3">
       <div class="custom-width">
@@ -27,115 +27,74 @@
 
 <!-- MAIN CONTENT AREA -->
     <main class="main-content">
-      <div class="container-fluid">
-        <div class="row bg_search-area">
-          <div class="col-12 mx-auto">
-            <p class="lead main-header col-8 font-weight-bold text-white text-center  m-4 pt-2 mx-auto">STUDY AT YOUR OWN PACE, FIND A COURSE TODAY</p>
-            <form class="search-area_bg col-8 mx-auto">
-              <div class="p-3 w-100">
-                <h6 class="main-input-text h6 my-3 font-weight-bold text-white">SEARCH BY CATEGORY:</h6>
-                <div class="input-group input-group-md w-100 mb-3">
-                  <input type="search" class="form-control main-input search-area_overflow" placeholder="Search for a course" aria-label="type place">
-                  <div class="input-group-append">
-                    <a href="search-results.html" class="btn btn-danger primary-color">SEARCH</a>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="container my-5">
-        <div class="row">
-          <div class="col">
-            <p class="lead text-danger text-center font-weight-bold">
-              YOUR DREAM COURSE IS FOUR CLICKS AWAY...
-            </p>
-          </div>
-        </div>
-        <div class="row mx-lg-3">
-          <div class="col-12 col-lg-6 px-lg-5 mt-5">
-            <div class="card text-center search-area_bg">
+      <div class="container">
+        <h3 >5,000 results from java programming search...</h3>
+        <div class="row my-3">
+          <div class="col-12 col-md-4">
+            <div class="card search_bg">
+              <img class="card-img-top" src="images/java_1.jpg" alt="Card image cap">
               <div class="card-body">
-                <a href="#"><img src="images/binoculars.jpg" alt="search" class="img-resize rounded-circle"></a>
-                <h5 class="card-title">1<sup>st</sup> - SEARCH: </h5>
-                <p class="card-text">Search for your dream course from over 10,000 well curated courses from world renowned instructors.</p>
+                <h5 class="card-title">Java Programming for beginners.</h5>
+                <p class="card-text">Learn the basics of java</p>
+                <a href="results.html" class="btn btn-danger">more details</a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6 px-lg-5 mt-5">
-            <div class="card text-center search-area_bg">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/java-android-live-training-1.png" alt="Card image cap">
               <div class="card-body">
-                <a href="#"><img src="images/select_3.jpg" alt="search" class="img-resize rounded-circle"></a>
-                <h5 class="card-title">2<sup>nd</sup> - SELECT: </h5>
-                <p class="card-text">Select the course that is well tailored for your intended upskill area, and level up your skills today.</p>
+                <h5 class="card-title">Java for android developers.</h5>
+                <p class="card-text">Develop your first android app using java.</p>
+                <a href="results.html" class="btn btn-danger">more details</a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row mx-lg-3">
-          <div class="col-12 col-lg-6 px-lg-5 mt-5">
-            <div class="card text-center search-area_bg">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/Java_regex.jpg" alt="Card image cap">
               <div class="card-body">
-                <a href="#"><img src="images/signup_3.png" alt="search" class="img-resize rounded-circle"></a>
-                <h5 class="card-title">3<sup>rd</sup> - SIGN UP: </h5>
-                <p class="card-text">Sign up for our free account and get access to your study dashboard with a lot of functionalities to make your study journey a smooth one.</p>
+                <h5 class="card-title">Java regex and authentication.</h5>
+                <p class="card-text">Design future proof systems.</p>
+                <a href="results.html" class="btn btn-danger">more details</a>
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6 px-lg-5 mt-5">
-            <div class="card text-center search-area_bg">
-              <div class="card-body">
-                <a href="#"><img src="images/payment_3.png" alt="search" class="img-resize rounded-circle"></a>
-                <h5 class="card-title">4<sup>th</sup> - PAY FOR YOUR COURSE: </h5>
-                <p class="card-text">Now that you have your preffered course at hand, make payments based on the plan that fits well in your budget with various payment options such as Visa, Mastercard, Paypal and Bitcoin and start enjoying your learning journey.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row bg-danger">
-          <div class="col d-flex justify-content-between align-items-center py-3 px-5">
-            <div class="text-white mr-3">
-              <p class="lead">Choose from over 15,000 online video courses</p>
-              <p class="small">Find your course by making use of our customized search tool.</p>
-              <a href="#" class="btn bg-white text-danger font-weight-bold">Find a Course</a>
-            </div>
-            <div>
-              <a href="#"><img src="images/courses.jpg" alt="" class="img-size rounded-circle"></a>
             </div>
           </div>
         </div>
 
-        <div class="row bg-secondary">
-          <div class="col d-flex justify-content-between align-items-center py-3 px-5">
-            <div class="text-white mr-3">
-              <p class="lead">Get a special offer custom package </p>
-              <p class="small">You can now get custom course packages using our special offer tool</p>
-              <a href="#" class="btn bg-white text-secondary font-weight-bold">Find a Custom Package</a>
+        <div class="row my-3">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/java_3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Java Programming for Pros</h5>
+                <p class="card-text">Dive deeper into advanced java topics</p>
+                <a href="results.html" class="btn btn-danger">more details</a>
+              </div>
             </div>
-            <div>
-              <a href="#"><img src="images/special_offer.jpg" alt="" class="img-size rounded-circle"></a>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/java_5-lambdas.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Java lambda expressions.</h5>
+                <p class="card-text">Discover the power of lambda expressions.</p>
+                <a href="results.html" class="btn btn-danger">more details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/java-design.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Java Design Patterns.</h5>
+                <p class="card-text">Learn the industry design standards.</p>
+                <a href="results.html" class="btn btn-danger">more details</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="row bg-info">
-          <div class="col d-flex justify-content-between align-items-center py-3 px-5">
-            <div class="text-white mr-3">
-              <p class="lead">Learn on the go!</p>
-              <p class="small">Great platform for learners, take advantage of our robust system that can<br> 
-                be accessed from any where in the globe from any device,<br> 
-                giving you the greatest learning experience. </p>
-            </div>
-            <div>
-              <a href="#"><img src="images/code-everywhere__.jpg" alt="" class="img-size rounded-circle"></a>
-            </div>
-          </div>
-        </div>
       </div>
     </main>
 
