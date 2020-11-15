@@ -20,21 +20,13 @@ body {
 
 .main-header {
   grid-area: header-area;
-  /* background-color: #d4564a; */
-  background-color: #f15625;
 }
 
 .custom-logo {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.2rem;
   margin-left: -12px;
-}
-
-.img-circular {
-  width: 100%;
-  max-width: 48px;
-  border-radius: 50%;
 }
 
 .main-content {
@@ -52,12 +44,11 @@ body {
 
 .custom-font {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .custom-width {
-  width: 100%;
-  max-width: 155px;
+  max-width: 165px;
 }
 
 .position-vectors {
@@ -67,10 +58,46 @@ body {
 
 .img-resize {
   width: 100%;
-  max-width: 48px;
-  max-height: 48px;
+  max-width: 64px;
+  max-height: 64px;
 }
 
 .logo_bg {
   background-color: #f15625;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 75%;
+  }
+  .resize_btn {
+    width: 100%;
+  }
+
+  .form_d-block {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom_height {
+    height: 32px;
+  }
+
+  .custom_transform {
+    transform: translateY(-16px);
+  }
+
+  .neg_m-L {
+    margin-left: -8px;
+  }
+
+  .neg_m-R {
+    margin-right: -8px;
+  }
+
+  .border_on {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
 }
