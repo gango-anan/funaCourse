@@ -114,10 +114,11 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   html {
-    font-size: 90%;
+    font-size: 75%;
   }
+  
   .resize_btn {
     width: 100%;
   }
