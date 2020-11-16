@@ -41,7 +41,7 @@ This project is base on the original design of 'PATASHULE' by Mathew Njuguna on 
 👨🏻‍💻 **Galiwango Ananiya**
 - GitHub: [@gango-anan](https://github.com/gango-anan)
 - Twitter: [@gango_anan](https://twitter.com/gango_anan)
-- LinkedIn: [@galiwango-ananiya](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
+- LinkedIn: [@galiwango-ananiya](https://www.linkedin.com/in/galiwango-ananiya-0800821b4/)
 
 
 ## 🤝 Contributing
