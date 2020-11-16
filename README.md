@@ -1,6 +1,5 @@
 # funaCourse
-funaCourse is a HTML&CSS Capstone project undertaken to fullfil the requirements of the Microverse Full Stack Web Developer program.
-funCourse is web system that acts as a gateway for finding an online coding course with a lot of ease.
+funaCourse is a HTML&CSS Capstone project undertaken to fullfil the requirements of the Microverse Full Stack Web Developer program. The word 'funa' is derived from my native language which loosely translates to "find". funaCourse is a web system that acts as a gateway for finding an online coding course with a lot of ease.
 
 This project is base on the original design of 'PATASHULE' by Mathew Njuguna on Behance, thank you Mathew for the elegant design and for giving me the opportunity to up my design skills by replicating what you already designed.
 
@@ -22,9 +21,9 @@ This project is base on the original design of 'PATASHULE' by Mathew Njuguna on 
 - google fonts
 
 
-## Below is the Live link to Heatmap of the Smashing Magazine home page
+## Below is the Live link to funaCourse home page
 
-[Heatmap of Smashing Magazine home page Link](https://gango-anan.github.io/funaCourse/)
+[funaCourse live link](https://gango-anan.github.io/funaCourse/)
 
 ## Getting Started
 - Install a web browser of your choice prefferably Google chrome or mozilla firefox.
@@ -38,7 +37,7 @@ This project is base on the original design of 'PATASHULE' by Mathew Njuguna on 
 - You can now start enjoying your studies.
 - Thanks.
 
-## Authors
+## Author
 👨🏻‍💻 **Galiwango Ananiya**
 - GitHub: [@gango-anan](https://github.com/gango-anan)
 - Twitter: [@gango_anan](https://twitter.com/gango_anan)
