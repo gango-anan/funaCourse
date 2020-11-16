@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
-/* font-family: 'Josefin Sans', sans-serif;
-font-family: 'Montserrat', sans-serif; */
 
 * {
   box-sizing: border-box;
@@ -54,7 +52,7 @@ body {
 
 .custom-font {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .custom-width {
