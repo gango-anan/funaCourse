@@ -48,7 +48,7 @@ This project is base on the original design of 'PATASHULE' by Mathew Njuguna on 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://gango-anan.github.io/funaCourse/issues).
+Feel free to check the [issues page](https://github.com/gango-anan/funaCourse/issues).
 
 
 ## Show your support
