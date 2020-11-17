@@ -65,6 +65,12 @@ body {
 
 .img-resize {
   width: 100%;
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.logo-footer {
+  width: 100%;
   max-width: 5rem;
   max-height: 5rem;
 }
@@ -116,7 +122,7 @@ body {
 
 @media (max-width: 992px) {
   html {
-    font-size: 75%;
+    font-size: 80%;
   }
 
   .resize_btn {
@@ -125,5 +131,9 @@ body {
 
   .form_d-block {
     display: block;
+  }
+
+  .custom-font {
+    font-size: 1.5rem;
   }
 }
