@@ -17,23 +17,60 @@
       </div>
       <nav>
         <ul class="d-flex align-items-center justify-content-between navigation-links list-unstyled m-0 custom-font font-weight-bold">
-          <li class="navigation-link  mx-3 pt-2"><a href="search-results.html"  class="text-decoration-none text-white "><span><ion-icon name="search"></ion-icon></span> <span class="d-none d-md-inline-block">COURSES</span></a></li>
-          <li class="navigation-link  mx-3 pt-2"><a href="#"   class="text-decoration-none text-white "><span><ion-icon name="person-outline"></ion-icon></span> <span class="d-none d-md-inline-block">ABOUT</span></a></li>
-          <li class="navigation-link  mx-3 pt-2"><a href="#"   class="text-decoration-none text-white "><span><ion-icon name="logo-rss"></ion-icon></span> <span class="d-none d-md-inline-block">BLOG</span></a></li>
-          <li class="navigation-link  mx-3 pt-2"><a href="details.html"   class="text-decoration-none text-white "><span><ion-icon name="menu-sharp"></ion-icon></span> <span class="d-none d-md-inline-block">MORE...</span></a></li>
+          <li class="navigation-link  mx-3 pt-2"><a href="search-results.html"  class="text-decoration-none text-white "><span><ion-icon name="search"></ion-icon></span> <span class="d-none d-lg-inline-block">COURSES</span></a></li>
+          <li class="navigation-link  mx-3 pt-2"><a href="#"   class="text-decoration-none text-white "><span><ion-icon name="person-outline"></ion-icon></span> <span class="d-none d-lg-inline-block">ABOUT</span></a></li>
+          <li class="navigation-link  mx-3 pt-2"><a href="#"   class="text-decoration-none text-white "><span><ion-icon name="logo-rss"></ion-icon></span> <span class="d-none d-lg-inline-block">BLOG</span></a></li>
+          <li class="navigation-link  mx-3 pt-2"><a href="details.html"   class="text-decoration-none text-white "><span><ion-icon name="menu-sharp"></ion-icon></span> <span class="d-none d-lg-inline-block">MORE...</span></a></li>
         </ul>
       </nav>
     </header>
 
 <!-- MAIN CONTENT AREA -->
     <main class="main-content">
-      <div class="container py-5">
-        <div class="row border-bottom mb-3">
-          <div class="col pb-1">
-            <p class="lead font-weight-bold text-danger" >5,000 results from java programming search...</p>
+      <section class="container-fluid bg-light mt-5 py-3">
+        <h3 class="text-center text-secondary h4 py-3">Filter by Course Name, Category, and Level </h3>
+        <form class="col-10 mx-auto">
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <div >
+                <label for="inputCourseName" class="font-weight-bold">COURSE NAME</label>
+                <input type="text" class="form-control" id="inputCourseName">
+              </div>
+            </div>
+
+            <div class="form-group col-md">
+              <label for="inputCategory" class="font-weight-bold">CATEGORY</label>
+              <select id="inputCategory" class="form-control">
+                <option selected></option>
+                <option>General Programming</option>
+                <option>Web Development</option>
+                <option>Systems Development</option>
+                <option>Data Science</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md">
+              <label for="inputLevel" class="font-weight-bold">LEVEL</label>
+              <select id="inputLevel" class="form-control">
+                <option selected></option>
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md pt-4 mt-2">
+              <button type="submit" class="btn btn-primary">Search</button>
+              <button type="submit" class="btn btn-warning">clear filter</button>
+            </div>
+
           </div>
-        </div>
-        <div class="row">
+        </form>
+      </section>
+
+      <section class="container py-5">
+        <h3 class="font-weight-bold text-danger py-2" >5,000 results from java programming search...</h3>
+        <div class="row border-top py-3">
           <div class="col-12 col-md-4 my-3">
             <div class="card search_bg">
               <img class="card-img-top" src="images/java_1.jpg" alt="Card image cap">
@@ -98,8 +135,7 @@
             </div>
           </div>
         </div>
-
-      </div>
+      </section>
     </main>
 
 <!-- MAIN FOOTER AREA     -->

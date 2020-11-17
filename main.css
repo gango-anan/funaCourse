@@ -16,6 +16,10 @@ body {
     "main-footer-area";
 }
 
+.input-height {
+  height: 12px;
+}
+
 .main-header {
   grid-area: header-area;
 }
