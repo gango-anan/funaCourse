@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header-area"
+    "main-content-area"
+    "main-footer-area";
+}
+
+.input-height {
+  height: 12px;
+}
+
+.main-header {
+  grid-area: header-area;
+}
+
+.custom-logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: -0.75rem;
+}
+
+.main-content {
+  grid-area: main-content-area;
+}
+
+.bg_search-section {
+  height: 30rem;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 10%, transparent), url("images/theme-pc1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-position: right 0 bottom 35%;
+}
+
+.main-footer {
+  grid-area: main-footer-area;
+}
+
+.black_bg {
+  background-color: #000;
+}
+
+.custom-font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.custom-width {
+  max-width: 178px;
+}
+
+.position-vectors {
+  left: 48%;
+  top: -35%;
+}
+
+.img-resize {
+  width: 100%;
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.logo-footer {
+  width: 100%;
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
+.img-size {
+  width: 100%;
+  max-width: 16rem;
+  max-height: 16rem;
+}
+
+.search-area_bg {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 5px 5px 0 0 rgb(156, 155, 155);
+}
+
+.search-area_overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .custom_height {
+    height: 3rem;
+  }
+
+  .custom_transform {
+    transform: translateY(-1rem);
+  }
+
+  .neg_m-L {
+    margin-left: -0.5rem;
+  }
+
+  .neg_m-R {
+    margin-right: -0.5rem;
+  }
+
+  .border_on {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+
+  .footer_social-width {
+    width: 48%;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 80%;
+  }
+
+  .resize_btn {
+    width: 100%;
+  }
+
+  .form_d-block {
+    display: block;
+  }
+
+  .custom-font {
+    font-size: 1.5rem;
+  }
+}
