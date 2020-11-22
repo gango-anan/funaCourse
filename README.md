@@ -5,11 +5,11 @@ This project is base on the original design of 'PATASHULE' by Mathew Njuguna on 
 
 ## Below are screenshots of the completed pages for mobile, tablet and desktop screen sizes
 
-![screenshot](./images/snapshot-mobile-phone.png)
+![screenshot](./images/mobile.png)
 
-![screenshot](./images/snapshot-talet.png)
+![screenshot](./images/tablet.png)
 
-![screenshot](./images/snapshot-desktop.png)
+![screenshot](./images/desktop.png)
 
 
 ## Built With
