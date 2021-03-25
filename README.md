@@ -7,7 +7,7 @@ This project is base on the original design of 'PATASHULE' by Mathew Njuguna on 
 
 ![screenshot](./images/mobile.png)
 
-![screenshot](./images/aaa.png)
+![screenshot](./images/tablet.png)
 
 ![screenshot](./images/desktop.png)
 
